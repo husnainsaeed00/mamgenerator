@@ -11,3 +11,96 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.header{
+  display: flex;
+  align-items: center;
+  height:65px;
+  background: linear-gradient(90deg, #672280 0%, #A626D3 100%);
+  color:white;
+  padding:20px;
+}
+.header--image{
+  height:100%;
+  margin-right:7px;
+
+}
+.header--title{
+  font-size:20px;
+  margin-right:auto;
+}
+.header--project{
+  font-size:12px;
+  font-weight:500;
+}
+.form{
+  display:grid;
+  grid-template:40px 40px / 1fr 1fr;
+  gap:17px;
+}
+.first{
+  border-radius: 5px;
+  font-size:15px;
+border: 1px solid #D5D4D8;
+}
+.second{
+  border-radius: 5px;
+  font-size:15px;
+border: 1px solid #D5D4D8;
+}
+.button{
+  height: 40px;
+  width:auto;
+  color:white;
+  font-size: 16px;
+  font-weight:700;
+  grid-column: 1 / -1;
+  border-radius: 5px;
+background: linear-gradient(135deg, #711F8D 0%, #A818DA 100%);
+}
+main{
+  padding: 36px;
+}
+
+
+.meme-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 7px;
+  position: relative; /* Add this */
+}
+
+.meme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative; /* Add this */
+}
+
+.meme img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  position: relative; /* Add this */
+}
+
+.meme h2 {
+  font-size: 18px;
+  margin: 0;
+  position: absolute; /* Add this */
+  left: 50%;
+  transform: translateX(-50%);
+  color: black; /* Adjust the color as needed */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional text shadow for better visibility */
+}
+
+.meme h2.top {
+  top: 30px; 
+  font-size:44px;/* Adjust the distance from the top */
+}
+
+.meme h2.bottom {
+  bottom: 30px; 
+  font-size:44px;/* Adjust the distance from the bottom */
+}
